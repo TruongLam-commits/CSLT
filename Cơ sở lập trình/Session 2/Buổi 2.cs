@@ -3,7 +3,7 @@ using System;
 
 internal class Session2
 {
-    public static void Main(string[] args)
+    public static void subMain(string[] args)
     {
         Session1.subMain(args); //Dùng để gọi lại code ở file Session1
 

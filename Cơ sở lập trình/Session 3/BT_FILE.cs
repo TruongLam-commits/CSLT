@@ -144,7 +144,7 @@ internal class BT_THUC_TE
 
     }
 
-    private static void Main(string[] args)
+    private static void subMain(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 

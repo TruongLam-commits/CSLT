@@ -56,7 +56,7 @@ internal class giaiPT
             }
         }
     }
-    private static void Main(string[] args)
+    private static void subMain(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
         Console.Write("Nhập hệ số a: "); int a = int.Parse(Console.ReadLine());

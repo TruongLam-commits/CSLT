@@ -139,10 +139,7 @@ internal class BaiTap
         }
         else Console.WriteLine($"The coordinat point ({X},{Y}) lies at the Origin (0,0)");
     }
-
-    static void Control_Flow_4()
     {
-        //Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
 
         Console.Write("Enter side A: "); int sA = int.Parse(Console.ReadLine());
         Console.Write("Enter side B: "); int sB = int.Parse(Console.ReadLine());
@@ -174,7 +171,6 @@ internal class BaiTap
     private static void subMain(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
-        Control_Flow_4();
     }
 
 }
